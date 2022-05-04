@@ -5,6 +5,7 @@
 // Thanks to ( jgn di hapus jamet)
 /*
 <p> Loli Killers</p>
+<P> The.sad.boy01</p>
 <p> Rynz</p>
 <p> Eka Danuarta</p>
 <p> ZeeoneOfc </p>
@@ -22,8 +23,8 @@ var lolkill = db.get("lolkill");
 	console.log('')
 }
 
-var creator = 'ZeeoneOfc' // ubah jadi nama lu
-const listkey = ["Alphabot","Zeeone","ZeeoneOfc"]; // ubah apikey nya, tambah aja klo mau
+var creator = 'The.sad.boy01' // ubah jadi nama lu
+const listkey = ["sader","raxcel","saderaxcel"]; // ubah apikey nya, tambah aja klo mau
 
 var axios = require('axios');
 var qs = require('qs');
@@ -293,7 +294,7 @@ router.get('/cecan/malaysia', async (req, res, next) => {
         var result = data[Math.floor(Math.random() * data.length)];
         var buff = result.url
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  buff
              })
          })
@@ -615,7 +616,7 @@ router.get('/download/ytsearch', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -638,7 +639,7 @@ router.get('/download/ytmp4', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -662,7 +663,7 @@ router.get('/lk21/search', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -684,7 +685,7 @@ router.get('/lk21/terbaru', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -706,7 +707,7 @@ router.get('/lk21/comingsoon', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -728,7 +729,7 @@ router.get('/lk21/tvseries', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -751,7 +752,7 @@ router.get('/lk21/year', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -774,7 +775,7 @@ router.get('/lk21/country', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -797,7 +798,7 @@ router.get('/lk21/genre', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -822,7 +823,7 @@ router.get('/filmapik/search', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -845,7 +846,7 @@ router.get('/filmapik/kategori', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -868,7 +869,7 @@ router.get('/filmapik/play', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -890,7 +891,7 @@ router.get('/filmapik/terbaru', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -915,7 +916,7 @@ router.get('/news/cnn', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -938,7 +939,7 @@ router.get('/news/cnbc', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -961,7 +962,7 @@ router.get('/news/republika', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -984,7 +985,7 @@ router.get('/news/tempo', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -1007,7 +1008,7 @@ router.get('/news/antara', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -1029,7 +1030,7 @@ router.get('/news/kumparan', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -2844,7 +2845,7 @@ router.get('/other/ghstalk', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
@@ -2867,7 +2868,7 @@ router.get('/other/repostalk', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'The.sad.boy01',
                  result
              })
          })
